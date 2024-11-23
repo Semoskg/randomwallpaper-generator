@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Wallpaper Generator</h1>
+        <p>Select a theme to generate wallpaper images:</p>
+
+        <div class="controls">
+            <select id="themeSelect">
+                <option value="nature">Nature</option>
+                <option value="architecture">Architecture</option>
+                <option value="animals">Animals</option>
+                <option value="technology">Technology</option>
+                <option value="abstract">Abstract</option>
+                <option value="random">Random</option>
+            </select>
+            <button id="generateBtn">Generate Wallpapers</button>
+        </div>
+
+        <div id="wallpapers" class="wallpaper-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
